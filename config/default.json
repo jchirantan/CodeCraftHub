@@ -1,0 +1,9 @@
+{
+  "app": {
+    "name": "User Service",
+    "port": 3000
+  },
+  "db": {
+    "mongoURI": "mongodb://localhost:27017/user-service"
+  }
+}
