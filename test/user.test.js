@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../src/server');
+const app = require('../src/server').default;
 
 describe('User Service API Tests', () => {
   it('should get all users', async () => {
